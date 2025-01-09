@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>E-commerce product page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/all.min.css"/>
+</head>
+<body>
+  <nav>
+    <div class="nav-half1">
+      <img src="/images/icon-menu.svg" class="bars" alt="">
+      <img src="images/logo.svg" class="main-logo" alt="">
+      <div class="foropacity active">
+        <div class="forsmallscreens">
+          <img src="/images/icon-close.svg" alt="" class="times">
+          <ul>
+            <li><a href="#" class="active">Collections</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contract</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- checkout icon and profile pic -->
+     <div class="nav-half2">
+      <div class="checkout">
+        <img src="images/icon-cart.svg" alt="cart-icon">
+        <div class="notification">
+          <p>1</p>
+        </div>
+      </div>
+      <div class="profile-avatar">
+        <img src="images/image-avatar.png" alt="profile-pic">
+      </div>
+     </div>
+  </nav><!-- nav ended -->
+
+  <div class="cart active">
+    <div class="cart-header">
+      <p>Cart</p>
+    </div>
+    <div class="cart-item"><!-- div for things inside the div -->
+      <p class="empty">Your cart is empty.</p>
+      <!-- things that will enter div -->
+      <div class="item">
+        <!--<div class="items">
+
+        </div>-->
+      </div>
+        <button class="checkout-btn">Checkout</button>
+    </div>
+  </div>
+<!-- End of nav -->
+
+<!-- Beggining of the body -->
+  <div class="body-content">
+    <div class="images">
+      <div class="full-image">
+        <div class="fullImg">
+          <img src="images/image-product-1.jpg" loading="lazy" class="main-image">
+        </div>
+        <div class="previous">
+          <img src="/images/icon-previous.svg" alt="">
+        </div>
+        <div class="next">
+          <img src="/images/icon-next.svg" alt="">
+        </div>
+      </div>
+      <div class="next-images">
+        <div class="image active">
+          <img src="images/image-product-1-thumbnail.jpg" loading="lazy" data-index="1" alt="">
+        </div>
+        <div class="image">
+          <img src="images/image-product-2-thumbnail.jpg" loading="lazy" data-index="2" alt="">
+        </div>
+        <div class="image">
+          <img src="images/image-product-3-thumbnail.jpg" loading="lazy" data-index="3" alt="">
+        </div>
+        <div class="image">
+          <img src="images/image-product-4-thumbnail.jpg" loading="lazy" data-index="4" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="about-image">
+      <h4 class="company">SNEAKER COMPANY</h4>
+  
+      <h1>Fall limited Edition Sneakers</h1>
+  
+      <p class="about-text">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+
+      <div class="prices">
+        <div class="price-tag">
+          <h2 class="item-price">125.00</h2>
+          <span class="discount-percent">50%</span>
+        </div>
+        <p class="before-discount">$250.00</p>
+      </div>
+
+      <div class="count-section">
+        <div class="counter">
+          <div class="minus"><img src="/images/icon-minus.svg" alt=""></div>
+          <p class="count">1</p>
+          <div class="plus"><img src="/images/icon-plus.svg" alt=""></div>
+        </div>
+        
+        <button class="addtocart">
+          <img src="/images/icon-addtocart.svg" alt="">
+          Add to cart
+        </button>
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
